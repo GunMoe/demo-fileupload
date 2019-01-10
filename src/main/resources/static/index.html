@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>文件上传</title>
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/uploadFiles.css"/>
 </head>
 <body>
-this is index page
+
+
+  <header id="header" class="page-header">
+    <!-- 头部显示 -->
+    <div class="container upload ">
+      <div class="up-header center-block">
+        <h2 >文件上传</h2>
+        <div class="input-group"  style="width:600px; display:flex;">
+    			<input type="text" class="form-control" placeholder="在此处粘贴图片网址" value="https://l.dounait.cn/ajaxupload">
+    			<button type="button" class="btn btn-primary">上传图片</button>
+		    </div>
+      </div>
+      <div class="row">
+        <!-- 拖拽图片到这来 -->
+        <div class="col-md-5 col-md-offset-1 up-content  dragFile">
+          <p style="margin-top:10px;">拖拽图片到这里哟</p>
+          <div class="up-area">
+            <input type="file" style="display:none;" id="fileDrag" name="fileDragselect" multiple>
+            <div class="row">
+              <ul class="list-group clearfix list-drag">
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <!-- 点击按钮上传文件 -->
+        <div class="col-md-5 up-content btnFile">
+          <div class="btn">
+            <button type="button" class="btn btn-success" id="btn"> 本地上传文件</button>
+            <input type="file" style="display:none;" id="fileInput" name="fileselect" multiple>
+          </div>
+          <div class="up-area">
+            <div class="row">
+              <ul class="list-group clearfix list-btn">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+			<button id="test">TEST</button>
+    </div>
+  </header>
+	<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/uploadFiles.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>

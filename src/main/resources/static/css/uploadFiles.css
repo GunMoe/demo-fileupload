@@ -1,0 +1,80 @@
+body,
+ html {
+ 	margin: 0 auto;
+ }
+
+ .up-header {
+ 	width: 600px;
+ 	text-align: center;
+ }
+
+ .up-content {
+ 	min-height: 200px;
+ 	border: 1px solid #CCCCCC;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #FAFAFA;
+ 	color: #999;
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+
+ .up-area {
+ 	border: 2px dashed #ccc;
+ 	margin: 10px 20px 20px 20px;
+ 	width: 300px;
+ 	min-height: 200px;
+ 	line-height: 100px;
+ 	background-color: #fff;
+ }
+
+ .list-group {
+ 	margin: 0px auto;
+ 	;
+ 	width: 200px;
+ 	min-height: 100px;
+ 	padding: 10px;
+
+ }
+
+ img {
+ 	max-width: 100%;
+ }
+
+ .btn {}
+
+ .close {
+ 	margin-left: 550px;
+ 	margin-top: -20px;
+ }
+
+ .message_li {
+ 	font-size: 12px;
+ 	height: 40px;
+ 	line-height: 17px;
+ }
+
+ .file_progress{
+ 	height: 7px;
+ 	margin-bottom: 0px;
+ 	overflow: hidden;
+ 	background-color: #f5f5f5;
+ 	border-radius: 7px;
+ 	/* box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1); */
+ }
+
+ .file_progress-bar {
+ 	height: 100%;
+	background-color: #0ff;
+ 	/* float: left;
+ 	width: 20%;
+ 	font-size: 12px;
+ 	line-height: 10px;
+ 	color: #fff;
+ 	text-align: center;
+ 	background-color: red; */
+ 	/* box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+ 	transition: width .6s ease; */
+ }
